@@ -651,7 +651,7 @@ div.video {
 .no-js div.audio,
 .no-js div.video,
 div.loaded { opacity: 1; }
-div.image img { width: 100%; }
+div.image img { width: 100%;}
 
 .view {
     cursor: -webkit-zoom-in;
