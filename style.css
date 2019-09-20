@@ -560,38 +560,19 @@ iframe {
 }
 .projects-feed .project .overlay {
     background: #ffffff;
-    background-color: white;
-	mix-blend-mode: saturation;
-	opacity: 1;
-	height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    height: 100%;
+    opacity: 0;
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
     -webkit-transition: opacity 0.15s ease-in-out;
     transition: opacity 0.15s ease-in-out;
     width: 100%;
-	z-index: 10;
-}
-
-.overlay2 {
-    background: #ffffff;
-    background-color: red;
-	mix-blend-mode: screen;
-	opacity: 0.1;
-	height: 100%;
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    -webkit-transition: opacity 0.15s ease-in-out;
-    transition: opacity 0.15s ease-in-out;
-    width: 100%;
-	z-index: 11;
+    z-index: 5;
 }
 
 .no-touch .projects-feed .project a:hover .overlay {
-    opacity: 0;
-}
-
-.no-touch .projects-feed .project a:hover .overlay2 {
-    opacity: 0;
+    opacity: 1;
 }
 
 .projects-feed .project-content-container {
